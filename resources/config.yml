@@ -1,7 +1,7 @@
 #ServerAuth plugin default configuration
 ---
 #Keep logged in by IP
-IPLogin: false
+IPLogin: true
 #Force single authentication
 force-single-auth: true
 #Allow not authenticated users to move
@@ -17,13 +17,13 @@ timeout: 600
 #Minimum password length
 minPasswordLength: 6
 #Maximum password length
-maxPasswordLength: 16
+maxPasswordLength: 160
 #Password hash algorithm
 passwordHash: "sha256"
 #ServerAuth language
 language: "EN_en"
 #ServerAuth message prefix
-prefix: "&b[Slice] "
+prefix: "&6&lEmpire&4&lNetwork"
 #Show join message (defined on join-message in the current language file)
 show-join-message: true
 #Use MySQL (set this to false if you want to save data in local files)
