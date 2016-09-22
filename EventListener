@@ -1,0 +1,7 @@
+<?php
+
+namespace Tekacheri\firstplugin
+
+use pocketmine\event\Listener;
+use pocketmine\event\player\PlayerChatEvent;
+
